@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 언어마다 차이가 있지만, Golang에서는 타입이 정말 중요하다 (크기까지도)
 func main() {
 	a := [...]int{1, 2, 3, 4, 5}
 	b := [...]int{100, 200, 300, 400, 500}
